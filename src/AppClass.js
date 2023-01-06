@@ -11,7 +11,7 @@ class AppClass extends Component {
   }
 
   componentDidMount() {
-    this.setState({ name: "My default Class name" });
+    this.setState({ name: "My Default Class name" });
   }
 
   changeName = (value) => {
